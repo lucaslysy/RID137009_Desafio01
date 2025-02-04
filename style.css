@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+
+#cabecalho{
+    
+    background-color: #303030;
+    color: #FFFFFF; 
+
+}
+
+#titulo-cabecalho{
+    padding: 100px 25px 0px 100px;
+    
+    
+}
+#texto-cabecalho{
+    padding: 0px 25px 75px 100px;
+
+}
+
+#informativo{
+    font-weight: bold;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px 0px 50px 100px
+
+}
+
+#projeto{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+
+}
+
+#secaoprojeto{
+    
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+.imgprojeto{
+    border-radius: 5px;
+    width: 400px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+#tituloprojeto{
+    padding: 150px 50px 25px 5px;
+    text-align: center;
+    
+}
+
+#textoprojeto{
+    padding: 0px 0px 50px 75px;
+   
+}
+
+#formulario{
+    padding: 25px 25px 50px 75px;
+    text-align: center;
+    background-color: #303030;
+    color: #FFFFFF;
+
+}
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    background-color: #C07212;
+    color: #EAECE5;
+    height: 40px;
+    width: 250px;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    cursor: pointer;
+}
